@@ -1,0 +1,149 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: sans-serif;
+}
+.link{
+	height:95px;
+	width:95px;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:;
+	margin:auto;
+	font-size:30px;
+	box-shadow:;
+	border:8px solid #c4c4db;
+	transition:all 1s ease 0s;
+}
+.link:hover{
+	background-color:#2ccbb5;
+	border:8px solid #6d959530;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.r-circle-1{
+	stroke-dasharray:280;
+}
+.r-circle-2{
+	stroke-dasharray:260;
+}
+.r-circle-3{
+	stroke-dasharray:240;
+}
+.svg-circle{
+	transform:rotate(260deg);
+}
+footer{
+	background-color:#ffc0cb59;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.back-to-top{
+	position:fixed;
+	right:15px;
+	bottom:15px;
+	background:#81d381;
+	width:40px;
+	height:40px;
+	border-radius:4px;
+	transition:all 0.5s;
+}
+.back-to-top{
+	font-size:28px;
+}
+.port-1{
+	position:absolute;
+	top:0px;
+	left:0px;
+	text-align:center;
+	background-color:#000;
+	width:100%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	line-height:1.8;
+	opacity:0;
+	transition:all 0.3s ease;
+	transform:scale(0.5,0.5);
+}
+.port:hover .port-1{
+	opacity:1;
+	color:#fff;
+	transform:scale(1,1);
+}
+.port-1::before{
+	content:"";
+	position:absolute;
+	width:48px;
+	height:48px;
+	top:15px;
+	left:15px;
+	border-top:3px solid #bdc6ca;
+	border-left:3px solid #bdc6ca;
+}
+.port-1::after{
+	content:"";
+	position:absolute;
+	width:48px;
+	height:48px;
+	top:15px;
+	left:15px;
+	border-top:3px solid #bdc6ca;
+	border-left:3px solid #bdc6ca;
+}	
+header{
+	z-index:1;
+}
+.pad-1{
+	height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(#028affb0,#028affb0),url('https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg');
+	background-position:cover;
+    color: white;
+    background-size: 100%;
+}
+.whats{
+	border-radius:50%;
+	background-color:#22f722;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	color:white;
+}	
+.linkk{
+	border-radius:20%;
+	width:20px;
+	height:20px;
+	line-height:30px;
+	color:white;
+}
+.phone{
+	border-radius:20%;
+	width:20px;
+	height:20px;
+	line-height:30px;
+	color:white;
+}
+.mail{
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	line-height:30px;
+	color:red;
+}
+
+		
+		
+		
